@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.texPrincipalForm{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    background: rgb(7, 7, 19);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.delete:hover{
+    transition: 300ms ease;
+    background: rgb(209, 0, 0);
+}
+.send{
+    background: rgb(0, 190, 0);
+}
+.update:hover{
+    transition: 300ms ease;
+    background: rgb(0, 190, 0);
+}
+
+header>a{
+    font-size: 30px;
+    color: rgb(0, 190, 0);
+    font-weight: 900;
+}
+
+.card{
+    padding: 12px;
+}
+.body{
+    width: 400px;
+    margin: auto;
+}
+form{
+    width: 100%;
+}
